@@ -4,7 +4,8 @@ namespace ZAMN
 
     public class FocusCamera : MonoBehaviour
     {
-        public float Speed;
+        public float MoveSpeed;
+        public float ZoomSpeed;
         public float MinSize;
         public float MaxSize;
     }
